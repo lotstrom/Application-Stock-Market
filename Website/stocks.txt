@@ -1,0 +1,199 @@
+FLWS	1-800 FLOWERS.COM, Inc.
+FCTY	1st Century Bancshares, Inc
+FCCY	1st Constitution Bancorp (NJ)
+SRCE	1st Source Corporation
+FUBC	1st United Bancorp, Inc. (FL)
+VNET	21Vianet Group, Inc.
+JOBS	51job, Inc.
+EGHT	8x8 Inc
+AVHI	A V Homes, Inc.
+SHLM	A. Schulman, Inc.
+AAON	AAON, Inc.
+ASTM	Aastrom Biosciences, Inc.
+ABAX	ABAXIS, Inc.
+ABGB	Abengoa, S.A.
+ABMD	ABIOMED, Inc.
+AXAS	Abraxas Petroleum Corporation
+ACTG	Acacia Research Corporation
+ACHC	Acadia Healthcare Company, Inc.
+ACAD	ACADIA Pharmaceuticals Inc.
+ACST	Acasti Pharma, Inc.
+AXDX	Accelerate Diagnostics, Inc.
+XLRN	Acceleron Pharma Inc.
+ACCL	Accelrys, Inc.
+ANCX	Access National Corporation
+ARAY	Accuray Incorporated
+ACRX	AcelRx Pharmaceuticals, Inc.
+ACET	Aceto Corporation
+ACHN	Achillion Pharmaceuticals, Inc.
+ACIW	ACI Worldwide, Inc.
+ACNB	ACNB Corporation
+ACOR	Acorda Therapeutics, Inc.
+ACFN	Acorn Energy, Inc.
+ACTS	Actions Semiconductor Co., Ltd.
+ACPW	Active Power, Inc.
+ATVI	Activision Blizzard, Inc
+BIRT	Actuate Corporation
+ACUR	Acura Pharmaceuticals, Inc.
+ACXM	Acxiom Corporation
+ADUS	Addus HomeCare Corporation
+AEY	ADDvantage Technologies Group, Inc.
+ADEP	Adept Technology, Inc.
+ADBE	Adobe Systems Incorporated
+ADTN	ADTRAN, Inc.
+ADES	Advanced Emissions Solutions, Inc.
+AEIS	Advanced Energy Industries, Inc.
+ADXS	Advaxis, Inc.
+ADXSW	Advaxis, Inc.
+ADVS	Advent Software, Inc.
+AEGR	Aegerion Pharmaceuticals, Inc.
+AEGN	Aegion Corp
+AEHR	Aehr Test Systems
+AEPI	AEP Industries Inc.
+AERI	Aerie Pharmaceuticals, Inc.
+AVAV	AeroVironment, Inc.
+AEZS	AEterna Zentaris Inc.
+ATRM	Aetrium Incorporated
+AFCE	AFC Enterprises, Inc.
+AFFX	Affymetrix, Inc.
+AGEN	Agenus Inc.
+AGYS	Agilysys, Inc.
+AGIO	Agios Pharmaceuticals, Inc.
+AIRM	Air Methods Corporation
+AIRT	Air T, Inc.
+ATSG	Air Transport Services Group, Inc
+AMCN	AirMedia Group Inc
+AIXG	Aixtron SE
+AKAM	Akamai Technologies, Inc.
+AKRX	Akorn, Inc.
+ALSK	Alaska Communications Systems Group, Inc.
+AMRI	Albany Molecular Research, Inc.
+ALCS	ALCO Stores, Inc.
+ADHD	Alcobra Ltd.
+ALXN	Alexion Pharmaceuticals, Inc.
+ALXA	Alexza Pharmaceuticals, Inc.
+ALCO	Alico, Inc.
+ALGN	Align Technology, Inc.
+ALIM	Alimera Sciences, Inc.
+ALKS	Alkermes plc
+ALGT	Allegiant Travel Company
+ALLB	Alliance Bancorp, Inc. of Pennsylvania
+AFOP	Alliance Fiber Optic Products, Inc.
+AIQ	Alliance HealthCare Services, Inc.
+AHGP	Alliance Holdings GP, L.P.
+ARLP	Alliance Resource Partners, L.P.
+AHPI	Allied Healthcare Products, Inc.
+AMOT	Allied Motion Technologies, Inc.
+ALLT	Allot Communications Ltd.
+MDRX	Allscripts Healthcare Solutions, Inc.
+AFAM	Almost Family Inc
+ALNY	Alnylam Pharmaceuticals, Inc.
+AOSL	Alpha and Omega Semiconductor Limited
+ATEC	Alphatec Holdings, Inc.
+ALTI	Altair Nanotechnologies Inc.
+ALTR	Altera Corporation
+ASPS	Altisource Portfolio Solutions S.A.
+APSA	Alto Palermo S.A.
+AIMC	Altra Holdings, Inc.
+ALVR	Alvarion Ltd.
+AMAG	AMAG Pharmaceuticals, Inc.
+AMRN	Amarin Corporation PLC
+AMZN	Amazon.com, Inc.
+AMBC	Ambac Financial Group, Inc.
+AMBCW	Ambac Financial Group, Inc.
+AMBA	Ambarella, Inc.
+EPAX	Ambassadors Group, Inc.
+AMBT	Ambient Corporation
+AMBI	Ambit Biosciences Corporation
+AMCX	AMC Networks Inc.
+AMED	Amedisys Inc
+UHAL	Amerco
+ASBI	Ameriana Bancorp
+ATAX	America First Multifamily Investors, L.P.
+AMOV	America Movil, S.A.B. de C.V.
+AGNC	American Capital Agency Corp.
+AGNCP	American Capital Agency Corp.
+MTGE	American Capital Mortgage Investment Corp.
+ACAS	American Capital, Ltd.
+ANCI	American Caresource Holdings Inc
+AETI	American Electric Technologies, Inc.
+AMIC	American Independence Corp.
+AMNB	American National Bankshares, Inc.
+ANAT	American National Insurance Company
+APFC	American Pacific Corporation
+APEI	American Public Education, Inc.
+ARII	American Railcar Industries, Inc.
+ARCP	American Realty Capital Properties, Inc.
+AMRB	American River Bankshares
+ASEI	American Science and Engineering, Inc.
+AMSWA	American Software, Inc.
+AMSC	American Superconductor Corporation
+AMWD	American Woodmark Corporation
+CRMT	America&#39;s Car-Mart, Inc.
+ABCB	Ameris Bancorp
+AMSF	AMERISAFE, Inc.
+ASRV	AmeriServ Financial Inc.
+ASRVP	AmeriServ Financial Inc.
+ATLO	Ames National Corporation
+AMGN	Amgen Inc.
+FOLD	Amicus Therapeutics, Inc.
+AMKR	Amkor Technology, Inc.
+AMSG	Amsurg Corp.
+ASYS	Amtech Systems, Inc.
+AFSI	AmTrust Financial Services, Inc.
+AMRS	Amyris, Inc.
+ANAC	Anacor Pharmaceuticals, Inc.
+ANAD	ANADIGICS, Inc.
+ADI	Analog Devices, Inc.
+ALOG	Analogic Corporation
+ANEN	Anaren, Inc.
+ANCB	Anchor Bancorp
+AMCF	Andatee China Marine Fuel Services Corporation
+ANDA	Andina Acquisition Corporation
+ANDAU	Andina Acquisition Corporation
+ANDAW	Andina Acquisition Corporation
+ANGI	Angie&#39;s List, Inc.
+ANGO	AngioDynamics, Inc.
+ANIP	ANI Pharmaceuticals, Inc.
+ANIK	Anika Therapeutics Inc.
+ANSS	ANSYS, Inc.
+ATRS	Antares Pharma, Inc.
+ANTH	Anthera Pharmaceuticals, Inc.
+APAGF	Apco Oil and Gas International Inc.
+ATNY	API Technologies Corp.
+APOG	Apogee Enterprises, Inc.
+APOL	Apollo Group, Inc.
+AINV	Apollo Investment Corporation
+AAPL	Apple Inc.
+ARCI	Appliance Recycling Centers of America, Inc.
+AMAT	Applied Materials, Inc.
+AMCC	Applied Micro Circuits Corporation
+AAOI	Applied Optoelectronics, Inc.
+AREX	Approach Resources Inc.
+APRI	Apricus Biosciences, Inc
+AQU	Aquasition Corp.
+AQUUU	Aquasition Corp.
+AQUUW	Aquasition Corp.
+PETX	Aratana Therapeutics, Inc.
+ARCW	ARC Group Worldwide, Inc.
+ABIO	ARCA biopharma, Inc.
+ACGL	Arch Capital Group Ltd.
+ACAT	Arctic Cat Inc.
+ARDNA	Arden Group, Inc.
+ARNA	Arena Pharmaceuticals, Inc.
+ARCC	Ares Capital Corporation
+AGII	Argo Group International Holdings, Ltd.
+AGIIL	Argo Group International Holdings, Ltd.
+ARIA	ARIAD Pharmaceuticals, Inc.
+ARKR	Ark Restaurants Corp.
+ABFS	Arkansas Best Corporation
+ARMH	ARM Holdings plc
+ARTX	Arotech Corporation
+ARQL	ArQule, Inc.
+ARRY	Array BioPharma Inc.
+ARRS	ARRIS Group, Inc.
+AROW	Arrow Financial Corporation
+ARWR	Arrowhead Research Corporation
+ARTNA	Artesian Resources Corporation
+ARTC	ArthroCare Corporation
+ARTW	Art&#39;s-Way Manufacturing Co., Inc.

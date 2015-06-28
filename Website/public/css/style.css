@@ -1,0 +1,268 @@
+
+
+/* Reset all standard padding and margin  */
+* {
+    font-family: 'Exo', sans-serif;
+    margin: 0px;
+    padding: 0xpx;
+    
+}
+body {
+    background-color: rgb(235, 237, 238);
+
+}
+/* Top navigation bar  */
+#headertop {
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 1px -1px gray;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+#mainBox{
+    width: 1150px;
+    border: 10px solid white;
+    margin: auto;
+    box-shadow: 1px 1px 5px #888888;
+    padding-bottom: 1%
+}
+
+#mainBox div.subBox {
+    width: 47%;
+    height: 263px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 2%;
+    margin-top: 1%;
+
+}
+
+#mainBox div.subBoxBorder {
+    border: 5px solid white;
+    height: 100%
+
+
+}
+
+/* searchbar  */
+.form-wrapper {
+    
+    width: 450px;
+    padding: 8px;
+    margin: 38px auto;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede #bababa #aaa #bababa;
+    -moz-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    -webkit-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;    
+    background-color: #f6f6f6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eae8e8)); 
+    background-image: -webkit-linear-gradient(top, #f6f6f6, #eae8e8);
+    background-image: -moz-linear-gradient(top, #f6f6f6, #eae8e8);
+    background-image: -ms-linear-gradient(top, #f6f6f6, #eae8e8);
+    background-image: -o-linear-gradient(top, #f6f6f6, #eae8e8);
+    background-image: linear-gradient(top, #f6f6f6, #eae8e8);
+}
+
+
+.form-wrapper #search {
+    width: 97%;
+    height: 20px;
+    padding: 10px 5px;    
+    font: bold 16px "Exo";
+    border: 1px solid #ccc;
+    -moz-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;      
+}
+
+.form-wrapper #search:focus {
+    outline: 0; 
+    border-color: #aaa;
+    -moz-box-shadow: 0 1px 1px #bbb inset;
+    -webkit-box-shadow: 0 1px 1px #bbb inset;
+    box-shadow: 0 1px 1px #bbb inset;  
+}
+
+.form-wrapper #search::-webkit-input-placeholder {
+ color: #999;
+ font-weight: normal;
+}
+
+.form-wrapper #search:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+.form-wrapper #search:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+} 
+
+.form-wrapper #submit {
+    float: right;    
+    border: 1px solid #00748f;
+    height: 42px;
+    width: 100px;
+    padding: 0;
+    cursor: pointer;
+    font: bold 15px "Exo";
+    color: #fafafa;
+    text-transform: uppercase;    
+    background-color: rgb(9,201,240);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(9,201,240)), to(rgb(9,201,240)));
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;      
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #fff;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #fff;
+}
+
+.form-wrapper #submit:hover,
+.form-wrapper #submit:focus {       
+    background-color: rgb(9,201,240);
+    
+}   
+
+.form-wrapper #submit:active {
+    outline: 0;    
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;    
+}
+
+.form-wrapper #submit::-moz-focus-inner {
+    border: 0;
+}
+/* Middle navigation image */
+#main-nav {
+    margin: auto;
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    background: url('../img/main.png') no-repeat;
+    text-align: center;
+    line-height: 50px;
+}
+#main-nav a {
+    color:#fff;
+}
+/* Links to the right of the navigation image */
+#rightmenu {
+    margin-top: 10px;
+    left: 53%;
+    position: absolute;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+/* Links to the left of the navigation image */
+#leftmenu {
+    margin-top: 10px;
+    right: 57.2%;
+    position: absolute;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+header li {
+    display: list-item;
+    display:block;
+    float:left;
+    margin-left: 15px;
+}
+#leftmenu a:hover, #rightmenu a:hover {
+    color: #000;
+    text-shadow: 0px 0px 1px #fff;
+}
+#leftmenu a, #rightmenu a {
+    color: #797979;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 5px #fff;
+    letter-spacing: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#main-nav a:link, #leftmenu a:link, #rightmenu a:link {
+    text-decoration:none;
+}
+/* END OF TOP NAVIGATION BAR SETTINGS  */
+#wrapper {
+    width: 728px;
+    height: auto;
+    margin: 20px auto;
+}
+/* FRAME AROUND IMAGES*/
+.borderimg {
+    margin: 10px;
+    padding: 10px 10px 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    -moz-box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+/*  END FRAME AROUND IMAGES*/
+#content a:link {
+    text-decoration:none;
+}
+/*  BOX FOR IMAGE NAVIGATIONS */
+#content {
+    margin-top: -8px;
+}
+#content a {
+    padding-left: 22px;
+}
+/* END BOX FOR IMAGE NAVIGATIONS */
+
+/*RSS BOX*/
+.rss_box {  
+    margin-left: 30px;
+    overflow: scroll;
+    font-family:"Exo";
+    height: 100%;
+}
+
+
+/* START FOOTER SETTINGS */
+footer {
+    margin-top: 40px;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px -1px 1px -1px gray;
+}
+#icons {
+    padding-top: 2px;
+    text-align: center;
+}
+#icons a {
+    text-decoration:none;
+}
+#copyrighttext {
+    color: rgb(7, 193, 235);
+    font-size: 11px;
+}
+/* END FOOTER SETTINGS */
+
+
+.boxChart {
+    height: 263px;
+
+}
+#result {
+
+}

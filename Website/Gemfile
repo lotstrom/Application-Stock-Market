@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+# librarys 
+
+gem "couchrest"
+gem "sinatra"
+gem "shotgun"

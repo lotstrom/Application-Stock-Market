@@ -1,0 +1,281 @@
+Item Id,Item Type,Item Name,User,User Name,Date,Worklog Type Id,Worklog Type,Work Done,Description,Project Id,Project,Release Id,Release
+38,1,Read up erlang,104,Ale Lotström,18/09/2013,0,,8 hrs,,5,ETL,3,Sprint 2
+38,1,Read up erlang,104,Ale Lotström,19/09/2013,0,,7 hrs,,5,ETL,3,Sprint 2
+38,1,Read up erlang,104,Ale Lotström,23/09/2013,0,,6 hrs,,5,ETL,3,Sprint 2
+38,1,Read up erlang,104,Ale Lotström,24/09/2013,0,,6 hrs,,5,ETL,3,Sprint 2
+38,1,Read up erlang,104,Ale Lotström,25/09/2013,0,,4 hrs,,5,ETL,3,Sprint 2
+35,1,Create database,104,Ale Lotström,1/10/2013,0,,3 hrs,reading and setting up a dummy database with george,3,Database,4,Sprint 3 
+33,1,Grabbing data from 1 of the sources ,104,Ale Lotström,6/10/2013,0,,5 hrs,Trying to figure out how to get API data to database with george,5,ETL,4,Sprint 3 
+48,1,Finding source/grabbing data,104,Ale Lotström,16/10/2013,0,,6 hrs,"Working together with the group(carl, daniel and george) on finding a usable source that returns JSON format.",5,ETL,5,Sprint 4
+51,1,Finding list of stocks from stock markets and parsing them,104,Ale Lotström,21/10/2013,0,,4 hrs,trying/found both csv/txt file for stock markets with carl,5,ETL,5,Sprint 4
+51,1,Finding list of stocks from stock markets and parsing them,104,Ale Lotström,22/10/2013,0,,3 hrs,trying to parse csv file with carl,5,ETL,5,Sprint 4
+51,1,Finding list of stocks from stock markets and parsing them,104,Ale Lotström,23/10/2013,0,,4 hrs,parsing txt file with carl,5,ETL,5,Sprint 4
+48,1,Finding source/grabbing data,104,Ale Lotström,17/10/2013,0,,7 hrs,finding alternative sources returning csv files etc. with the group.,5,ETL,5,Sprint 4
+60,1,Fetch from sources,104,Ale Lotström,29/10/2013,0,,4 hrs,setting up httpc request to the JSON sources,5,ETL,6,Sprint 5
+64,1,Create specific parser for source,104,Ale Lotström,30/10/2013,0,,6 hrs,trying to decode the nested JSON object ,5,ETL,6,Sprint 5
+64,1,Create specific parser for source,104,Ale Lotström,31/10/2013,0,,7 hrs,decoding JSON with mochijson2 and then taking out specific data that we want,5,ETL,6,Sprint 5
+81,1,"Gen_server, OTP",104,Ale Lotström,11/11/2013,0,,5 hrs,"Setting up general OTP, gen_server, supervisor for backend",5,ETL,7,Sprint 6
+83,1,backend functions and loading to DB,104,Ale Lotström,12/11/2013,0,,6 hrs,working on extract data from markitondemand with carl,5,ETL,7,Sprint 6
+83,1,backend functions and loading to DB,104,Ale Lotström,13/11/2013,0,,5 hrs,"put the extracted markitondemand data back to right structure, so that it can be re-coded back to JSON. ",5,ETL,7,Sprint 6
+83,1,backend functions and loading to DB,104,Ale Lotström,14/11/2013,0,,8 hrs,"try to put the returned data from yahoo/google in right structure to be recoded into JSON, but error where the string is overwritten",5,ETL,7,Sprint 6
+83,1,backend functions and loading to DB,104,Ale Lotström,15/11/2013,0,,5 hrs,"fixed the data format error with carl, trying to make database upload module.",5,ETL,7,Sprint 6
+83,1,backend functions and loading to DB,104,Ale Lotström,19/11/2013,0,,6 hrs,"trying to upload dummy data to database, changing data format to fit the new database module",5,ETL,7,Sprint 6
+83,1,backend functions and loading to DB,104,Ale Lotström,20/11/2013,0,,5 hrs,"trying multiple data upload from the start, problem with sources. Had to re-make the early part due to source blocking the requests if sending all at once together with carl",5,ETL,7,Sprint 6
+83,1,backend functions and loading to DB,104,Ale Lotström,21/11/2013,0,,5 hrs,"uploading works for database, but cant update and existing document. trying to find other solutions.",5,ETL,7,Sprint 6
+83,1,backend functions and loading to DB,104,Ale Lotström,22/11/2013,0,,7 hrs,"working with carl to update an existing document, can't get it to work. Trying to find new solutions.",5,ETL,7,Sprint 6
+103,1,Changing ETL functions,104,Ale Lotström,25/11/2013,0,,7 hrs,"trying new ways of database structure to see if possible to update the stock, but couldn't get it to work.",5,ETL,8,Sprint 7
+103,1,Changing ETL functions,104,Ale Lotström,26/11/2013,0,,6 hrs,trying to make an update handler to be put into the database to handle the updating with carl. Reverting to old structure.,5,ETL,8,Sprint 7
+103,1,Changing ETL functions,104,Ale Lotström,27/11/2013,0,,6 hrs,finishing the update handler with carl,5,ETL,8,Sprint 7
+103,1,Changing ETL functions,104,Ale Lotström,28/11/2013,0,,6 hrs,changing the structure of the data sent in to the update handler with carl,5,ETL,8,Sprint 7
+101,1,Documentation,104,Ale Lotström,4/12/2013,0,,5 hrs,Writing draft for system requirement specification,1,StockIn,8,Sprint 7
+111,1,Requirement Documentation,104,Ale Lotström,10/12/2013,0,,1 hrs,"Finishing the Functional Requirement
+",1,StockIn,9,Sprint 8
+111,1,Requirement Documentation,104,Ale Lotström,10/12/2013,0,,1 hrs,"Writing about nonfunctional requirements 
+",1,StockIn,9,Sprint 8
+111,1,Requirement Documentation,104,Ale Lotström,11/12/2013,0,,1 hrs,Writing about the system features in our project,1,StockIn,9,Sprint 8
+111,1,Requirement Documentation,104,Ale Lotström,16/12/2013,0,,2 hrs,"Finishing everything about the System features including the Frontend
+",1,StockIn,9,Sprint 8
+111,1,Requirement Documentation,104,Ale Lotström,18/12/2013,0,,2 hrs, Writing the backend features,1,StockIn,9,Sprint 8
+103,1,Changing ETL functions,104,Ale Lotström,29/11/2013,0,,5 hrs,fixing minor bugs and complete the ETL with carl,5,ETL,8,Sprint 7
+111,1,Requirement Documentation,104,Ale Lotström,9/12/2013,0,,2 hrs,"Writing the functional Requirements 
+",1,StockIn,9,Sprint 8
+82,1,"Gen_server, OTP",100,Carl Natterdal,12/11/2013,0,,1 hrs,changing structure from gen_server:call to cast ,5,ETL,7,Sprint 6
+102,1,Changing ETL functions,100,Carl Natterdal,29/11/2013,0,,5 hrs,doing some minor changes and completing the ETL together with ale,5,ETL,8,Sprint 7
+109,1,Project Plan,100,Carl Natterdal,10/12/2013,0,,2 hrs,Writing the general scope of the project and its components,1,StockIn,9,Sprint 8
+109,1,Project Plan,100,Carl Natterdal,11/12/2013,0,,4 hrs," write about the process model and the different management methods, tools etc",1,StockIn,9,Sprint 8
+109,1,Project Plan,100,Carl Natterdal,16/12/2013,0,,3 hrs,writing sprint summary and put together the documentation,1,StockIn,9,Sprint 8
+109,1,Project Plan,100,Carl Natterdal,20/12/2013,0,,3 hrs,"Going through the whole document, making sure everything is in order to be sent in",1,StockIn,9,Sprint 8
+100,1,Documentation,100,Carl Natterdal,3/12/2013,0,,3 hrs,writing about different management used during the project for the draft,1,StockIn,8,Sprint 7
+102,1,Changing ETL functions,100,Carl Natterdal,28/11/2013,0,,6 hrs,changing the structure of the data sent in to string for the new update handler ,5,ETL,8,Sprint 7
+102,1,Changing ETL functions,100,Carl Natterdal,27/11/2013,0,,6 hrs,finishing up the new update handler with ale,5,ETL,8,Sprint 7
+102,1,Changing ETL functions,100,Carl Natterdal,26/11/2013,0,,6 hrs,working on an update handler for the database together with ale,5,ETL,8,Sprint 7
+102,1,Changing ETL functions,100,Carl Natterdal,25/11/2013,0,,7 hrs,"Trying together with ale to solve the updating issue, changing database structure etc. but couldn't get it to work yet.",5,ETL,8,Sprint 7
+84,1,backend functions and loading to DB,100,Carl Natterdal,22/11/2013,0,,7 hrs,"couldn't get document updating to work with the database module, trying to find new solution with ale",5,ETL,7,Sprint 6
+84,1,backend functions and loading to DB,100,Carl Natterdal,21/11/2013,0,,5 hrs,"We managed to create new documents in database, but could not update the documents. Tried renamning document id to symbol searched by sending the symbol name through the process. Trying to find solution for update.",5,ETL,7,Sprint 6
+84,1,backend functions and loading to DB,100,Carl Natterdal,20/11/2013,0,,5 hrs,"working with ale to upload data though the current ETL, we discovered that the sources has their limit of amount of requests. This meant we had to change our ETL to better fit this constraint.",5,ETL,7,Sprint 6
+84,1,backend functions and loading to DB,100,Carl Natterdal,19/11/2013,0,,6 hrs,"working together with ale to upload data to the local host, having to reformat the data. ",5,ETL,7,Sprint 6
+84,1,backend functions and loading to DB,100,Carl Natterdal,15/11/2013,0,,5 hrs,"fixed the previous problem with the format, now starting database upload module with ale",5,ETL,7,Sprint 6
+84,1,backend functions and loading to DB,100,Carl Natterdal,14/11/2013,0,,8 hrs,"trying to put google and yahoo data in correct format for recoding with ale, but having problems",5,ETL,7,Sprint 6
+84,1,backend functions and loading to DB,100,Carl Natterdal,13/11/2013,0,,5 hrs,Working together with ale to put the extracted data into right format on markitondemand.,5,ETL,7,Sprint 6
+84,1,backend functions and loading to DB,100,Carl Natterdal,12/11/2013,0,,6 hrs,doing markitondemand parser to extract the wanted data,5,ETL,7,Sprint 6
+82,1,"Gen_server, OTP",100,Carl Natterdal,11/11/2013,0,,5 hrs,"Creating all OTP, gen_server, supervisor needed for backend with ale",5,ETL,7,Sprint 6
+63,1,Create specific parser for source,100,Carl Natterdal,30/10/2013,0,,6 hrs,decoding the JSON object,5,ETL,6,Sprint 5
+63,1,Create specific parser for source,100,Carl Natterdal,31/10/2013,0,,7 hrs,getting out specific JSON data that we want from the decoded return value with mochijson2,5,ETL,6,Sprint 5
+61,1,Fetch from sources,100,Carl Natterdal,11/12/2013,0,,4 hrs,make httpc request for source and saving in variables,5,ETL,6,Sprint 5
+46,1,Finding source/grabbing data,100,Carl Natterdal,17/10/2013,0,,7 hrs,Trying to find other sources returning for example csv formatt with the group,5,ETL,5,Sprint 4
+50,1,Finding list of stocks from stock markets and parsing them,100,Carl Natterdal,23/10/2013,0,,4 hrs,parsing text file with ale,5,ETL,5,Sprint 4
+50,1,Finding list of stocks from stock markets and parsing them,100,Carl Natterdal,22/10/2013,0,,3 hrs,working on csv parser with ale,5,ETL,5,Sprint 4
+50,1,Finding list of stocks from stock markets and parsing them,100,Carl Natterdal,21/10/2013,0,,4 hrs,found csv/text file for different stock market with ale,5,ETL,5,Sprint 4
+46,1,Finding source/grabbing data,100,Carl Natterdal,16/10/2013,0,,6 hrs,"Working together with the group(george, ale & daniel) on finding a usable source that returns JSON format.",5,ETL,5,Sprint 4
+28,1,website layout/functions,100,Carl Natterdal,4/10/2013,0,,5 hrs,"Making/fixing top header lists, reading on different effects etc",10,Website,4,Sprint 3 
+28,1,website layout/functions,100,Carl Natterdal,7/10/2013,0,,5 hrs,"Making/placing all stock market photos, cleaning up current code removing unnecessary leftovers. Commenting etc.",10,Website,4,Sprint 3 
+28,1,website layout/functions,100,Carl Natterdal,30/09/2013,0,,5 hrs,"changing from version 1 look, made a new layout together with daniel. ",10,Website,4,Sprint 3 
+9,1,Study Erlang,100,Carl Natterdal,24/09/2013,0,,6 hrs,"More regards to erlang basics, looking up OTP and doing some exercises in the book.",5,ETL,3,Sprint 2
+9,1,Study Erlang,100,Carl Natterdal,17/09/2013,0,,5.5 hrs,"Studying erlang, doing research on OTP. ",5,ETL,3,Sprint 2
+9,1,Study Erlang,100,Carl Natterdal,18/09/2013,0,,9 hrs,"Reading, doing a lot exercises aswell as looking through different bifs etc from the Erlang Documentation.",5,ETL,3,Sprint 2
+8,1,Website Mockup,100,Carl Natterdal,19/09/2013,0,,2 hrs,"Discussing mockup ideas, doing design sketches.",10,Website,3,Sprint 2
+9,1,Study Erlang,100,Carl Natterdal,21/09/2013,0,,5 hrs,"Reading Erlang, reseaching more about OTP. ",5,ETL,3,Sprint 2
+2,1,Read up on DB,103,Daniel Hosseini,17/09/2013,0,,0.3 hrs,Installed CouchDB.,3,Database,3,Sprint 2
+6,1,Figure out Github,103,Daniel Hosseini,17/09/2013,0,,1.3 hrs,Setting up project and basic knowledge about github-shell,1,StockIn,3,Sprint 2
+6,1,Figure out Github,103,Daniel Hosseini,22/09/2013,0,,1 hrs,,1,StockIn,3,Sprint 2
+2,1,Read up on DB,103,Daniel Hosseini,22/09/2013,0,,2 hrs,,3,Database,3,Sprint 2
+6,1,Figure out Github,103,Daniel Hosseini,18/09/2013,0,,1 hrs,"Understanding fork, pull request and master branch",1,StockIn,3,Sprint 2
+6,1,Figure out Github,103,Daniel Hosseini,25/09/2013,0,,1.7 hrs,I now understand Github and how we should use it for the project. I will have to learn the others some basic commands in order for them to use it to.,1,StockIn,3,Sprint 2
+2,1,Read up on DB,103,Daniel Hosseini,25/09/2013,0,,1 hrs,Still having problems figuring this out.,3,Database,3,Sprint 2
+2,1,Read up on DB,103,Daniel Hosseini,25/09/2013,0,,1.7 hrs,,3,Database,3,Sprint 2
+29,1,Website layout/functions,103,Daniel Hosseini,30/09/2013,0,,5 hrs,"changing from version 1 look, made a new layout together with carl. ",10,Website,4,Sprint 3 
+40,1,Make graph API work with dummy data.,103,Daniel Hosseini,4/10/2013,0,,9 hrs,"Implemented a candlestick graph which is interacting with JSON.
+Next step is to add other graphs and make it more user friendly",10,Website,4,Sprint 3 
+29,1,Website layout/functions,103,Daniel Hosseini,4/10/2013,0,,3 hrs,Some Visual improvement.,10,Website,4,Sprint 3 
+22,1,Read up Android Development,103,Daniel Hosseini,18/09/2013,0,,5 hrs,How to use the Android SDK and installing the plugin for Eclipse,7,Android,3,Sprint 2
+40,1,Make graph API work with dummy data.,103,Daniel Hosseini,7/10/2013,0,,5 hrs,"Everything seems to be working for now, just waiting for our CouchDB to be up and running so we can add some dummy data and connect it.",10,Website,4,Sprint 3 
+47,1,Finding source/grabbing data,103,Daniel Hosseini,17/10/2013,0,,7 hrs,find alternatives sources that isnt JSON with the group,5,ETL,5,Sprint 4
+29,1,Website layout/functions,103,Daniel Hosseini,12/10/2013,0,,4 hrs,Implementing functions to the website,10,Website,4,Sprint 3 
+40,1,Make graph API work with dummy data.,103,Daniel Hosseini,9/10/2013,0,,3 hrs,Everything seems to be working ,10,Website,4,Sprint 3 
+29,1,Website layout/functions,103,Daniel Hosseini,10/10/2013,0,,5 hrs,Implementing graphs to new design,10,Website,4,Sprint 3 
+47,1,Finding source/grabbing data,103,Daniel Hosseini,16/10/2013,0,,5 hrs,"Working together with the group(carl, ale & george) on finding a usable source that returns JSON format.",5,ETL,5,Sprint 4
+54,1,Fetch from sources,103,Daniel Hosseini,29/10/2013,0,,4 hrs,requesting HTTP and making it readable by erlang,7,Android,6,Sprint 5
+55,1,Create specific parser for source,103,Daniel Hosseini,30/10/2013,0,,6 hrs,Trying to parse the nested JSON line that was returned by link,7,Android,6,Sprint 5
+72,1,Java remake,103,Daniel Hosseini,11/11/2013,0,,6 hrs,Recreating layout inspired by the first java application we had,9,Desktop,7,Sprint 6
+72,1,Java remake,103,Daniel Hosseini,12/11/2013,0,,3 hrs,Still working on the design ,9,Desktop,7,Sprint 6
+55,1,Create specific parser for source,103,Daniel Hosseini,31/10/2013,0,,7 hrs,Getting out the raw JSON data using mochijson2 and then taking out the specific data,7,Android,6,Sprint 5
+72,1,Java remake,103,Daniel Hosseini,14/11/2013,0,,5 hrs,Improving the object oriented and structuring the classes,9,Desktop,7,Sprint 6
+72,1,Java remake,103,Daniel Hosseini,18/11/2013,0,,4 hrs,Adding candlestick and pricechart,9,Desktop,7,Sprint 6
+72,1,Java remake,103,Daniel Hosseini,19/11/2013,0,,6 hrs,adding volumechart and implementing the charts to JPanel,9,Desktop,7,Sprint 6
+75,1,Search function,103,Daniel Hosseini,20/11/2013,0,,5 hrs,Creating a search bar and trying to connect to localhost,9,Desktop,7,Sprint 6
+75,1,Search function,103,Daniel Hosseini,21/11/2013,0,,7 hrs,Establishing a connection with db and trying to search for a document inside db,9,Desktop,7,Sprint 6
+75,1,Search function,103,Daniel Hosseini,22/11/2013,0,,4 hrs,Returning a boolean if the correct document is returned,9,Desktop,7,Sprint 6
+90,1,Parsing data from db,103,Daniel Hosseini,25/11/2013,0,,4 hrs,Grabbing json data from Couchdb and parsing into Strings,9,Desktop,8,Sprint 7
+90,1,Parsing data from db,103,Daniel Hosseini,27/11/2013,0,,5 hrs,Saving data to an ArrayList that can be accessed from another class,9,Desktop,8,Sprint 7
+90,1,Parsing data from db,103,Daniel Hosseini,30/11/2013,0,,5 hrs,Creating the correct structure that works with the charts.,9,Desktop,8,Sprint 7
+90,1,Parsing data from db,103,Daniel Hosseini,1/12/2013,0,,3 hrs,"Minor adjustment to the code, everything works fine now",9,Desktop,8,Sprint 7
+93,1,Rss receiver,103,Daniel Hosseini,4/12/2013,0,,6 hrs,Implementing an rss function that takes the users search  input and returns the stock news for the searched stock,9,Desktop,8,Sprint 7
+96,1,Connecting to online db ,103,Daniel Hosseini,6/12/2013,0,,5 hrs,In order to establish a online connection I had to change library to Lightcouch instead,9,Desktop,8,Sprint 7
+108,1,Technology Documentation,103,Daniel Hosseini,10/12/2013,0,,1 hrs,Writing the Introduction and what kind of development tools we used for this project,1,StockIn,9,Sprint 8
+108,1,Technology Documentation,103,Daniel Hosseini,11/12/2013,0,,2 hrs, Continue writing the Introduction and what kind of development tools we used for this project ,1,StockIn,9,Sprint 8
+108,1,Technology Documentation,103,Daniel Hosseini,13/12/2013,0,,3 hrs,Writing about the services we used for hosting our web application and database ,1,StockIn,9,Sprint 8
+108,1,Technology Documentation,103,Daniel Hosseini,13/12/2013,0,,2 hrs, Text about the libraries and why we used them,1,StockIn,9,Sprint 8
+108,1,Technology Documentation,103,Daniel Hosseini,17/12/2013,0,,2 hrs, Writing the rest of the technology report,1,StockIn,9,Sprint 8
+47,1,Finding source/grabbing data,103,Daniel Hosseini,21/12/2013,0,,4 hrs,Reading about Erlang structure,5,ETL,5,Sprint 4
+71,1,Search function ,101,George Markhulia,20/11/2013,0,,8 hrs,changing layout of the application adding 3 different chart views to swipable part of the screen,7,Android,7,Sprint 6
+88,1,Volume parse,101,George Markhulia,17/11/2013,0,,9 hrs,"Parsing volume data  from Google, with Ylva. In Erlang on backend",5,ETL,7,Sprint 6
+70,1,Diagram API,101,George Markhulia,15/11/2013,0,,7 hrs,"Polishing chart views, reading up on android",7,Android,7,Sprint 6
+71,1,Search function ,101,George Markhulia,19/11/2013,0,,10 hrs,reading on how to separate screen into two different activities. Making half of the screen swipable and other part scrollable,7,Android,7,Sprint 6
+71,1,Search function ,101,George Markhulia,21/11/2013,0,,7 hrs,creating search that  finds symbols which are stored as strings in the app,7,Android,7,Sprint 6
+104,1,Documentation,101,George Markhulia,3/12/2013,0,,6 hrs,Writing software architecture draft,7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,24/11/2013,0,,3 hrs,Reading up on navigation drawer,7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,24/11/2013,0,,4 hrs,Testing navigation drawer. Rebuilding app,7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,25/11/2013,0,,9 hrs,"rebuilding application, creating list adapters",7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,26/11/2013,0,,10 hrs,creating fragments and list views. adidng functions to methods,7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,27/11/2013,0,,7 hrs,connecting application to database. implementing actual data in charts,7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,28/11/2013,0,,10 hrs,"fixing views for charts, fragments, list views",7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,29/11/2013,0,,3 hrs,reading again about fragments and list view. fixing viewPager,7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,29/11/2013,0,,4 hrs,finishing chart view,7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,2/12/2013,0,,7 hrs,"Parsing RSS feed, creating view for rss feed",7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,4/12/2013,0,,3 hrs,working on changing the font of rss feed,7,Android,8,Sprint 7
+105,1,Putting everything together ,101,George Markhulia,5/12/2013,0,,6 hrs,"fixing bugs, polishing the app",7,Android,8,Sprint 7
+106,1,Polishing android,101,George Markhulia,18/12/2013,0,,6 hrs,"Polishing app, add padding, new background, signing app for release",7,Android,9,Sprint 8
+107,1,Design Documentation,101,George Markhulia,10/12/2013,0,,3 hrs,Documenting system backend,1,StockIn,9,Sprint 8
+107,1,Design Documentation,101,George Markhulia,12/12/2013,0,,3 hrs,"Documenting system front end, adding libraries",1,StockIn,9,Sprint 8
+107,1,Design Documentation,101,George Markhulia,16/12/2013,0,,4 hrs,"Creating diagrams for the system, including class diagrams and SSDs`",1,StockIn,9,Sprint 8
+71,1,Search function ,101,George Markhulia,18/11/2013,0,,9 hrs,Trying to find other ways to implement views of all charts to make application more resource efficient and easier to manage,7,Android,7,Sprint 6
+70,1,Diagram API,101,George Markhulia,14/11/2013,0,,7 hrs,Adding different chart on one activity on scrollable screen,7,Android,7,Sprint 6
+70,1,Diagram API,101,George Markhulia,13/11/2013,0,,9 hrs,"found charts API for android that support candle stick charts. Implementing API to application, testing chart views. ",7,Android,7,Sprint 6
+70,1,Diagram API,101,George Markhulia,12/11/2013,0,,5 hrs,reading up on how to create html view on android and implement google charts.,7,Android,7,Sprint 6
+70,1,Diagram API,101,George Markhulia,11/11/2013,0,,7 hrs,Searching for the stock libraries for the android and for the ways to implement them,7,Android,7,Sprint 6
+65,1,Create basic app with tabs/clickable pictures,101,George Markhulia,2/11/2013,0,,10 hrs,"Creating basic application, with only main activity. Adding buttons on the screen, changing background colors. Familiarizing myself with development environment.",5,ETL,6,Sprint 5
+65,1,Create basic app with tabs/clickable pictures,101,George Markhulia,4/11/2013,0,,8 hrs,Adding functions to the application. hiding input keyboard after the input is done. Saving the activity after screen orientation has changed,5,ETL,6,Sprint 5
+34,1,Create database,101,George Markhulia,1/10/2013,0,,3 hrs,Create database with Ale,3,Database,4,Sprint 3 
+32,1,Grabbing data from 1 of the sources ,101,George Markhulia,4/12/2013,0,,5 hrs,Trying to add API data to database with ale,5,ETL,4,Sprint 3 
+62,1,Reading up on android SDK,101,George Markhulia,28/10/2013,0,,3 hrs,"Installing Android SDK, adding libraries to Eclipse",5,ETL,6,Sprint 5
+49,1,Finding source/grabbing data,101,George Markhulia,17/10/2013,0,,7 hrs,Searching for free stock sources with the group,5,ETL,5,Sprint 4
+62,1,Reading up on android SDK,101,George Markhulia,30/10/2013,0,,7 hrs,"Reading about android development,, creating main activity on emulator",5,ETL,6,Sprint 5
+62,1,Reading up on android SDK,101,George Markhulia,31/10/2013,0,,7 hrs,"Reading about android API, how to update API levels to make app compatible with old android versions",5,ETL,6,Sprint 5
+62,1,Reading up on android SDK,101,George Markhulia,29/10/2013,0,,4 hrs,"Gathering information about android development, reading web sources",5,ETL,6,Sprint 5
+49,1,Finding source/grabbing data,101,George Markhulia,16/10/2013,0,,6 hrs,"In the group, Trying to find sources that return  JSON format",5,ETL,5,Sprint 4
+4,1,Read up on DB,101,George Markhulia,18/09/2013,2,NonBillable,5 hrs,Reading on Database. Set up database on aws.amazon.com . Finding out differences between rational and non-rational databases.,3,Database,3,Sprint 2
+12,1,Study Erlang,101,George Markhulia,21/09/2013,2,NonBillable,5 hrs,"Reading Erlang. Practicing recursion, doing exercises.",5,ETL,3,Sprint 2
+13,1,Study Erlang,105,Lidia  Nyman,19/09/2013,0,,2 hrs,Studied List Comprehensions,5,ETL,3,Sprint 2
+16,1,Read up Java,105,Lidia  Nyman,22/09/2013,0,,4 hrs,Studied the basics of Java.,9,Desktop,3,Sprint 2
+13,1,Study Erlang,105,Lidia  Nyman,23/09/2013,0,,8 hrs,"Pattern Matching, Recursion and Erlang exercises.",5,ETL,3,Sprint 2
+13,1,Study Erlang,105,Lidia  Nyman,24/09/2013,0,,7 hrs,Studied the lectures and worked with the assignment 1.,5,ETL,3,Sprint 2
+25,1,Basic GUI,105,Lidia  Nyman,1/10/2013,0,,9 hrs,"Reading, watching videos and getting familiar with Java Swing.",9,Desktop,4,Sprint 3 
+25,1,Basic GUI,105,Lidia  Nyman,2/10/2013,0,,6 hrs,Created a basic GUI interface. ,9,Desktop,4,Sprint 3 
+43,1,"Rss reader for texual news, integrate/display on GUI",105,Lidia  Nyman,18/10/2013,0,,6 hrs,Did read about RSS reader. ,9,Desktop,5,Sprint 4
+42,1,Adding API diagrams to the current application,105,Lidia  Nyman,19/10/2013,0,,2 hrs,Did read about JFree Charts and API diagrams.,9,Desktop,5,Sprint 4
+43,1,"Rss reader for texual news, integrate/display on GUI",105,Lidia  Nyman,20/10/2013,0,,7 hrs,Created a RSS reader and integrated/displayed on GUI.,9,Desktop,5,Sprint 4
+26,1,"""Select Stock Market’’/”Select stocks""",105,Lidia  Nyman,4/10/2013,0,,4 hrs,Created a menu bar to select some 'defined' stocks. ,9,Desktop,4,Sprint 3 
+42,1,Adding API diagrams to the current application,105,Lidia  Nyman,20/10/2013,0,,5 hrs,Created separated candlelight chart.,9,Desktop,5,Sprint 4
+56,1,Get all diagrams into the same frame,105,Lidia  Nyman,2/11/2013,0,,5 hrs,Tried to add the candlelight diagram into the main JFrame.,9,Desktop,6,Sprint 5
+56,1,Get all diagrams into the same frame,105,Lidia  Nyman,3/11/2013,0,,5 hrs,Continued working trying to add the candlelight chart into the main JFrame. ,9,Desktop,6,Sprint 5
+58,1,clean up the codes,105,Lidia  Nyman,10/11/2013,0,,6 hrs,Started to get familiar with the tools to track defects and reading up about the Test Plan.,9,Desktop,6,Sprint 5
+56,1,Get all diagrams into the same frame,105,Lidia  Nyman,11/11/2013,0,,5 hrs,Did read about displaying HTML in Java. And tested some pages. ,9,Desktop,6,Sprint 5
+73,1,Java remake,105,Lidia  Nyman,11/11/2013,0,,6 hrs,Improved the old layout. ,9,Desktop,7,Sprint 6
+73,1,Java remake,105,Lidia  Nyman,12/11/2013,0,,3 hrs,Finished working on the layout. ,9,Desktop,7,Sprint 6
+73,1,Java remake,105,Lidia  Nyman,14/11/2013,0,,5 hrs,Fixing the code structure to minimize the java classes.,9,Desktop,7,Sprint 6
+73,1,Java remake,105,Lidia  Nyman,18/11/2013,0,,4 hrs,Adding candlestick and price chart ,9,Desktop,7,Sprint 6
+76,1,Search function,105,Lidia  Nyman,20/11/2013,0,,5 hrs,Creating a search bard and trying to connect it to a local host.,9,Desktop,7,Sprint 6
+73,1,Java remake,105,Lidia  Nyman,19/11/2013,0,,6 hrs,"Implementing the volumechart and adding it to tht JPanel.
+",9,Desktop,7,Sprint 6
+85,1,Date parse ,105,Lidia  Nyman,16/11/2013,0,,3 hrs,Parsing current data format into unix time with mercy,5,ETL,7,Sprint 6
+76,1,Search function,105,Lidia  Nyman,21/11/2013,0,,7 hrs,"Implemented the search function and connecting it to the local database.
+
+",9,Desktop,7,Sprint 6
+76,1,Search function,105,Lidia  Nyman,22/11/2013,0,,4 hrs,"Establishing a connection with the local database and trying to search for words inside the database.
+
+Returning a boolean if the correct words is returned, everything seems to work.",9,Desktop,7,Sprint 6
+94,1,Rss receiver,105,Lidia  Nyman,4/12/2013,0,,5 hrs,Implementing RSS function. It takes the user's search input and returns the stock news for the searched stock. ,9,Desktop,8,Sprint 7
+91,1,Parsing data from db,105,Lidia  Nyman,25/11/2013,0,,4 hrs,Grabbing json data from Couchdb and parsing into Strings.,9,Desktop,8,Sprint 7
+91,1,Parsing data from db,105,Lidia  Nyman,27/11/2013,0,,3 hrs,Saving data to an ArrayList that can be accessed from another class. ,9,Desktop,8,Sprint 7
+91,1,Parsing data from db,105,Lidia  Nyman,30/11/2013,0,,5 hrs,Creating the correct structure that works with the charts. ,9,Desktop,8,Sprint 7
+91,1,Parsing data from db,105,Lidia  Nyman,1/12/2013,0,,3 hrs,"Minor adjustment to the code, everything works fine now.",9,Desktop,8,Sprint 7
+113,1,Requirement Documentation & Test Report,105,Lidia  Nyman,9/12/2013,0,,2 hrs,Writing the Functional Requirements,1,StockIn,9,Sprint 8
+113,1,Requirement Documentation & Test Report,105,Lidia  Nyman,10/12/2013,0,,1 hrs,"Finishing the Functional Requirements
+",1,StockIn,9,Sprint 8
+113,1,Requirement Documentation & Test Report,105,Lidia  Nyman,10/12/2013,0,,1 hrs,"Writing about nonfunctional requirements
+",1,StockIn,9,Sprint 8
+113,1,Requirement Documentation & Test Report,105,Lidia  Nyman,11/12/2013,0,,1 hrs,Writing about the system features in our project,1,StockIn,9,Sprint 8
+113,1,Requirement Documentation & Test Report,105,Lidia  Nyman,11/12/2013,0,,2 hrs,Writing introduction to test plan,1,StockIn,9,Sprint 8
+113,1,Requirement Documentation & Test Report,105,Lidia  Nyman,13/12/2013,0,,3 hrs,Writing the Test Report,1,StockIn,9,Sprint 8
+113,1,Requirement Documentation & Test Report,105,Lidia  Nyman,16/12/2013,0,,2 hrs,"Finishing everything about the System features including the Frontend
+",1,StockIn,9,Sprint 8
+110,1,Architecture Documentation ,106,Odzaya  Batsaikhan,11/12/2013,0,,2 hrs,"Definind Logical view of the system, drawing front-end sequence diagram.",1,StockIn,9,Sprint 8
+110,1,Architecture Documentation ,106,Odzaya  Batsaikhan,12/12/2013,0,,1 hrs,"Defining physical view of the system, drawing physical view diagram",1,StockIn,9,Sprint 8
+110,1,Architecture Documentation ,106,Odzaya  Batsaikhan,9/12/2013,0,,2 hrs,"Editing system architecture document, writing down stakeholders, purpose of 
+document.",1,StockIn,9,Sprint 8
+110,1,Architecture Documentation ,106,Odzaya  Batsaikhan,10/12/2013,0,,1 hrs,writing down stakeholder concerns and quality attributes of the system.,1,StockIn,9,Sprint 8
+110,1,Architecture Documentation ,106,Odzaya  Batsaikhan,16/12/2013,0,,2 hrs,"Defining process view of the system, drawing activity diagram.",1,StockIn,9,Sprint 8
+110,1,Architecture Documentation ,106,Odzaya  Batsaikhan,17/12/2013,0,,1 hrs,"Defining development view, drawing development view diagram ",1,StockIn,9,Sprint 8
+92,1,Parsing data from db,106,Odzaya  Batsaikhan,30/11/2013,0,,5 hrs,Creating the correct structure that works with the charts.,9,Desktop,8,Sprint 7
+92,1,Parsing data from db,106,Odzaya  Batsaikhan,1/12/2013,0,,3 hrs,"Minor adjustment to the code, everything works fine now",9,Desktop,8,Sprint 7
+92,1,Parsing data from db,106,Odzaya  Batsaikhan,27/11/2013,0,,3 hrs,Saving data to an ArrayList that can be accessed from another class,9,Desktop,8,Sprint 7
+95,1,Rss receiver,106,Odzaya  Batsaikhan,4/12/2013,0,,5 hrs,Implementing the RSS function that takes the user search input and  returns the stock news for the searched stock,9,Desktop,8,Sprint 7
+87,1,Date parse ,106,Odzaya  Batsaikhan,16/11/2013,0,,3 hrs, parsing current date into unix time with Lidia ,5,ETL,7,Sprint 6
+92,1,Parsing data from db,106,Odzaya  Batsaikhan,25/11/2013,0,,4 hrs,"Grabbing json data from Couchdb and parsing into Strings
+",9,Desktop,8,Sprint 7
+77,1,Search function,106,Odzaya  Batsaikhan,21/11/2013,0,,3 hrs,Implementing search function ,9,Desktop,7,Sprint 6
+74,1,Java remake,106,Odzaya  Batsaikhan,13/11/2013,0,,6 hrs,Implementing candlestick chart and JPanel,9,Desktop,7,Sprint 6
+77,1,Search function,106,Odzaya  Batsaikhan,22/11/2013,0,,4 hrs,Establishing a connection with db and trying to search for a document inside db,9,Desktop,7,Sprint 6
+77,1,Search function,106,Odzaya  Batsaikhan,18/11/2013,0,,6 hrs,Adding Price chart implementing JPanel,9,Desktop,7,Sprint 6
+77,1,Search function,106,Odzaya  Batsaikhan,19/12/2013,0,,6 hrs,Adding volume chart and implementing the Jpanel,9,Desktop,7,Sprint 6
+74,1,Java remake,106,Odzaya  Batsaikhan,13/11/2013,0,,5 hrs,Improving the object oriented and structuring the classes,9,Desktop,7,Sprint 6
+74,1,Java remake,106,Odzaya  Batsaikhan,11/12/2013,0,,3 hrs,Recreate Volume chart and Price chart ,9,Desktop,7,Sprint 6
+74,1,Java remake,106,Odzaya  Batsaikhan,11/11/2013,0,,6 hrs,Recreated layout ,9,Desktop,7,Sprint 6
+27,1,"""Select Stock Market’’/”Select stocks""",106,Odzaya  Batsaikhan,11/10/2013,0,,3 hrs,worked on trader app,9,Desktop,4,Sprint 3 
+41,1,Adding API diagrams to the current application,106,Odzaya  Batsaikhan,24/10/2013,0,,3 hrs,"Adding RSS in aaplication
+",9,Desktop,5,Sprint 4
+41,1,Adding API diagrams to the current application,106,Odzaya  Batsaikhan,21/10/2013,0,,3 hrs,worked on chart and RSS  with Lidia ,9,Desktop,5,Sprint 4
+41,1,Adding API diagrams to the current application,106,Odzaya  Batsaikhan,19/10/2013,0,,4 hrs,RSS reader ,9,Desktop,5,Sprint 4
+41,1,Adding API diagrams to the current application,106,Odzaya  Batsaikhan,24/10/2013,0,,3 hrs,"Candle stick chart demonstration
+",9,Desktop,5,Sprint 4
+41,1,Adding API diagrams to the current application,106,Odzaya  Batsaikhan,1/11/2013,0,,5 hrs,searching insert HTML into Java swing,9,Desktop,5,Sprint 4
+41,1,Adding API diagrams to the current application,106,Odzaya  Batsaikhan,2/11/2013,0,,5 hrs,worked on candlestick chart ,9,Desktop,5,Sprint 4
+57,1,Get all diagrams into the same frame,106,Odzaya  Batsaikhan,2/11/2013,0,,6 hrs,Worked on diagrams to place on frame ,9,Desktop,6,Sprint 5
+57,1,Get all diagrams into the same frame,106,Odzaya  Batsaikhan,3/11/2013,0,,6 hrs,Implementing diagram panel into frame ,9,Desktop,6,Sprint 5
+57,1,Get all diagrams into the same frame,106,Odzaya  Batsaikhan,6/11/2013,0,,3 hrs,showing diagrams into main frame ,9,Desktop,6,Sprint 5
+59,1,clean up the codes,106,Odzaya  Batsaikhan,3/11/2013,0,,5 hrs,Converting diagram frame into panel.,9,Desktop,6,Sprint 5
+59,1,clean up the codes,106,Odzaya  Batsaikhan,6/11/2013,0,,6 hrs,fixing debugs ,9,Desktop,6,Sprint 5
+59,1,clean up the codes,106,Odzaya  Batsaikhan,7/11/2013,0,,4 hrs,implementing  other 2 diagrams ,9,Desktop,6,Sprint 5
+57,1,Get all diagrams into the same frame,106,Odzaya  Batsaikhan,7/11/2013,0,,2 hrs,worked on AreaChart implementation ,9,Desktop,6,Sprint 5
+27,1,"""Select Stock Market’’/”Select stocks""",106,Odzaya  Batsaikhan,8/10/2013,0,,3 hrs,worked on JList,9,Desktop,4,Sprint 3 
+27,1,"""Select Stock Market’’/”Select stocks""",106,Odzaya  Batsaikhan,8/10/2013,0,,5 hrs,worked on JList and new Frame ,9,Desktop,4,Sprint 3 
+24,1,Basic GUI,106,Odzaya  Batsaikhan,7/10/2013,0,,3 hrs,read and watch tutorial for GUI,9,Desktop,4,Sprint 3 
+24,1,Basic GUI,106,Odzaya  Batsaikhan,8/10/2013,0,,2 hrs,read GUI,9,Desktop,4,Sprint 3 
+27,1,"""Select Stock Market’’/”Select stocks""",106,Odzaya  Batsaikhan,9/10/2013,0,,3 hrs,Worked on diagram app,9,Desktop,4,Sprint 3 
+27,1,"""Select Stock Market’’/”Select stocks""",106,Odzaya  Batsaikhan,8/10/2013,0,,3 hrs,"worked on Chart and stock selection
+",9,Desktop,4,Sprint 3 
+14,1,Study Erlang,106,Odzaya  Batsaikhan,22/09/2013,0,,3 hrs,Read about ETL. worked on Project design sketch ,5,ETL,3,Sprint 2
+14,1,Study Erlang,106,Odzaya  Batsaikhan,20/09/2013,0,,2.3 hrs,Study Erlang,5,ETL,3,Sprint 2
+14,1,Study Erlang,106,Odzaya  Batsaikhan,21/09/2013,0,,3 hrs,"Read about Erlang 
+Worked on exercises ",5,ETL,3,Sprint 2
+7,1,Website Mockup,102,Ylva Fonselius,19/09/2013,0,,2 hrs,,10,Website,3,Sprint 2
+15,1,Study Erlang,102,Ylva Fonselius,17/09/2013,0,,8 hrs,Studying the basics of erlang,5,ETL,3,Sprint 2
+15,1,Study Erlang,102,Ylva Fonselius,18/09/2013,0,,6 hrs,Studying erlang,5,ETL,3,Sprint 2
+15,1,Study Erlang,102,Ylva Fonselius,24/09/2013,0,,7 hrs,Understanding Erlang lists and case constructors,5,ETL,3,Sprint 2
+18,1,Read up on Website,102,Ylva Fonselius,26/09/2013,0,,4 hrs,Going through the code for the first mockup,10,Website,3,Sprint 2
+18,1,Read up on Website,102,Ylva Fonselius,17/09/2013,0,,5 hrs,Reading up on html ,10,Website,3,Sprint 2
+15,1,Study Erlang,102,Ylva Fonselius,25/09/2013,0,,3 hrs,Reading from the Erlang book,5,ETL,3,Sprint 2
+45,1,"RSS reader (Javascript) for texual news, integrate into website",102,Ylva Fonselius,17/10/2013,0,,3 hrs,"reading about rss, javascript and css ",10,Website,5,Sprint 4
+45,1,"RSS reader (Javascript) for texual news, integrate into website",102,Ylva Fonselius,18/10/2013,0,,7 hrs,reading and coding javascript for rss and starting some programming in javascript,10,Website,5,Sprint 4
+45,1,"RSS reader (Javascript) for texual news, integrate into website",102,Ylva Fonselius,23/10/2013,0,,5 hrs,Coding javascript for the rss feed,10,Website,5,Sprint 4
+45,1,"RSS reader (Javascript) for texual news, integrate into website",102,Ylva Fonselius,24/10/2013,0,,6 hrs,Layout for rss and finishing the last pices,10,Website,5,Sprint 4
+45,1,"RSS reader (Javascript) for texual news, integrate into website",102,Ylva Fonselius,16/10/2013,0,,4 hrs,reading upp on RSS feeds,10,Website,5,Sprint 4
+67,1,Search function,102,Ylva Fonselius,28/10/2013,0,,6 hrs,Reading about search and how ti create one in javascript,10,Website,6,Sprint 5
+67,1,Search function,102,Ylva Fonselius,30/10/2013,0,,5 hrs,Trying out my code and editing the code ,10,Website,6,Sprint 5
+67,1,Search function,102,Ylva Fonselius,4/11/2013,0,,11 hrs,completing the search working with dummy data,10,Website,6,Sprint 5
+67,1,Search function,102,Ylva Fonselius,6/11/2013,0,,4 hrs,Making some adjustments to make if function properly ,10,Website,6,Sprint 5
+66,1,Organize website diagrams etc,102,Ylva Fonselius,11/12/2013,0,,7 hrs,Selecting diagrams and implementing them in to the website,10,Website,6,Sprint 5
+69,1,Change/finish search function,102,Ylva Fonselius,12/11/2013,0,,2 hrs,"The search was working with a text file, trying to change it to local database",10,Website,7,Sprint 6
+69,1,Change/finish search function,102,Ylva Fonselius,13/11/2013,0,,5 hrs,creating local database and collecting the data ,10,Website,7,Sprint 6
+69,1,Change/finish search function,102,Ylva Fonselius,18/11/2013,0,,7 hrs,Working on reading the data from the local database and finishing.,10,Website,7,Sprint 6
+68,1,Setting up server,102,Ylva Fonselius,17/11/2013,0,,5 hrs,Setting up a server,10,Website,7,Sprint 6
+68,1,Setting up server,102,Ylva Fonselius,11/12/2013,0,,5 hrs,Having problemsresulting in changing the server,10,Website,7,Sprint 6
+99,1,Documentation,102,Ylva Fonselius,25/11/2013,0,,5 hrs,Writing documentation for the front-end design  ,10,Website,8,Sprint 7
+98,1,Parse data from db for api,102,Ylva Fonselius,26/11/2013,0,,6 hrs,Reading up on parser and trying to implement some code,10,Website,8,Sprint 7
+98,1,Parse data from db for api,102,Ylva Fonselius,27/11/2013,0,,9 hrs,Working on parser,10,Website,8,Sprint 7
+98,1,Parse data from db for api,102,Ylva Fonselius,28/11/2013,0,,6 hrs,Completing the parser,10,Website,8,Sprint 7
+97,1,Connect to online DB,102,Ylva Fonselius,29/11/2013,0,,6 hrs,Connecting to the final database,10,Website,8,Sprint 7
+97,1,Connect to online DB,102,Ylva Fonselius,3/12/2013,0,,3 hrs,Creating a design doc in the database to make it work,10,Website,8,Sprint 7
+112,1,UI design document,102,Ylva Fonselius,16/12/2013,0,,2 hrs,write about the mockup changes and putting together the document,1,StockIn,9,Sprint 8
+112,1,UI design document,102,Ylva Fonselius,10/12/2013,0,,2 hrs,Writing about the gui choices and technical specification ,1,StockIn,9,Sprint 8
+112,1,UI design document,102,Ylva Fonselius,12/12/2013,0,,4 hrs,Making photoshop version av the mockup from the paper/google drive,1,StockIn,9,Sprint 8

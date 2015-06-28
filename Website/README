@@ -1,0 +1,11 @@
+sleep 2 && open http://127.0.0.1:9393/ &
+cd Google\ Drive/Term\ 3\ SEM/Search/ && shotgun
+echo hej
+
+cp -r /Users/ylva/Google\ Drive/Term\ 3\ SEM/Search/* /Users/ylva/Desktop/Search/
+cd /Users/ylva/Desktop/Search/
+git add . 
+git commit -m hej
+git push heroku master 
+
+echo done 
